@@ -1,9 +1,15 @@
-# ZSH ICDIFF
+# Zsh Icdiff
 
-Wrapper around icdiff to easily install as a antigen bundle:
+Wrapper around [icdiff](https://github.com/jeffkaufman/icdiff) to easily install as a antigen bundle:
 
     antigen bundle desyncr/zsh-icdiff
 
-This will install the bundle as well as icdiff from effkaufman/icdiff.
+This will install the bundle as well as `icdiff` from `jeffkaufman/icdiff`.
 
 You should be able to call icdiff function from anywhere.
+
+## Options
+
+    `ICDIFF_OPTIONS`: Options passed to `icdiff` tool
+
+    `ICDIFF_PLUGIN_GIT_DIFFTOOL`: Whether to auto configure git to use `icdiff` as diff tool
