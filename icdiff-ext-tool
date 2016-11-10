@@ -1,0 +1,2 @@
+#!/bin/bash
+icdiff $ICDIFF_OPTIONS $2 $5
